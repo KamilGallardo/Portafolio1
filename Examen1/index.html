@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Brazo Robot</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/Kamil.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Kamil Gallardo Toledo</div>
+                                <div class="text-muted">Mecatrónica</div>
+                            </div>
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/Emilio.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Emilio Harold Gallegos García</div>
+                                <div class="text-muted">Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Septiembre 19, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Tinkercad</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >SolidWorks</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/portada_ard1.png" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5"> - Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta prática se hizo el ensamble de un brazo robótico conformado por servomotores, potenciometros y controlados por un arduinos.</p>
+    
+                    <p id="intro">
+                    <h2 class="fw-bolder mb-4 mt-5 fs-5">- Introducción -</h2>
+                    <p class="fs-6 mb-4">Por su definición, un servomotor es un componente electrónico que trabaja con corriente continua y tiene la capacidad de rotar en un rango determinado y mantenerse estable en dicha posición.</p>
+                    <p class="fs-6 mb-4">En este proyecto se el objetivo era controlar 4 servomotores, lo cual nos permite articular un brazo con el diseño que queramos y con esto, podemos pasar objetos con mucha más facilidad.</p>
+    
+                    <p id="materiales">
+                    <h2 class="fw-bolder mb-4 mt-5 fs-5">- Materiales -</h2>
+                    <p class="fs-6 mb-4">-ARDUINO UNO </p>
+                    <p class="fs-6 mb-4">-Jumpers macho-macho</p>
+                    <p class="fs-6 mb-4">-Plancha de MDF de 3 mm</p>
+                    <p class="fs-6 mb-4">-Servomotores</p>              
+                    <p class="fs-6 mb-4">-Protoboard</p>
+                    <p class="fs-6 mb-4">-Potenciómetros</p>
+                    <p class="fs-6 mb-4">-Fuente regulable</p>
+                    <p id="desarrollo">
+                    <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2> </p>
+                    <p class="fs-6 mb-4">El primer paso fue diseñar el brazo en SolidWorks, para cortarlo en láser.</p> <div class="container px-5 my-5">
+                        <div class="row gx-5">
+    
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded" width="80%" src="img/Partes.png" alt="..." />
+    
+                        </div>
+                    </div>
+                    <p class="fs-6 mb-4">Posteriormente se realizan los cortes en mdf y proseguimos con el ensamblado de todo para ir colocando los servomotores en su lugar, y en algunos casos, fue necesario rediseñar algunas piezas para su correcto funcionamiento.</p>
+    
+                    <div class="container px-5 my-5">
+                        <div class="row gx-5">
+    
+                            <div class="col-lg-6">
+                                <!-- Contact card free-->
+                                        <div class="card-body p-4">
+                                            <div class="text-center">
+                                                 <p class="fs-6 mb-4">
+                                <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="30%" src="img/WA.jpeg" alt="..." /></figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                            <div class="col-lg-6">
+                                <!-- Post content-->
+                                <div class="my-5">
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="30%" src="img/WE.jpeg" alt="..." /></figure>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-6">
+                                <!-- Post content-->
+                                <div class="my-5">
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="30%" src="img/WI.jpeg" alt="..." /></figure>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <!-- Post content-->
+                                <div class="my-5">
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="30%" src="img/WI.jpeg" alt="..." /></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <p id="simulacion">
+                    <h1 class="fw-bolder2 mb-4 mt-5 fs-5" align="center">- Código -</h1>
+                    <p class="fs-6 mb-4">
+                        <div class="container px-5 my-5">
+                        <div class="row gx-5">
+    
+                            <div class="col-lg-6">
+                                <!-- Contact card free-->
+                                        <div class="card-body p-4">
+                                            <div class="text-center">
+                                                 <p class="fs-6 mb-4">
+                                <figure class="mb-4" align="center">
+                                    #include < Servo.h >  <br>
+    int valor1;   //variable que almacena la <br>
+            //lectura analógica1 <br>
+    int valor2;   //variable que almacena la <br>
+            //lectura analógica2 <br>
+    int valor3;<br>
+    int valor4;<br>
+    int pos1;        //Variable que almacena la posicion del servo1<br>
+    int pos2;        //Variable que almacena la posicion del servo2<br>
+    int pos3;  <br>
+    int pos4;  <br> 
+     //Le decimos al codigo que va a existir un servo<br>
+    //llamado my servo<br>
+    Servo myservo1;<br>
+    Servo myservo2;<br>
+    Servo myservo3;<br>
+    Servo myservo4;<br>
+     <br>
+    void setup()<br>
+    {<br>
+      //Le decimos al codigo donde esta conectado el servo 1 <br>
+      myservo1.attach(8);<br>
+      //Le decimos al codigo donde esta conectado el servo 2 <br>
+      myservo2.attach(9);<br>
+      myservo3.attach(10);<br>
+      myservo4.attach(11);<br>
+    }<br>
+     <br>
+    void loop()<br>
+    {<br>
+      // leemos el valor de potenciometro1<br>
+      valor1 = analogRead(A0);<br>
+      // leemos el valor de potenciometro2<br>
+      valor2 = analogRead(A1);<br>
+      valor3 = analogRead(A2);<br>
+      valor4 = analogRead(A3);<br>
+      //Convertimos el valor del potenciometro a una<br>
+      //que entienda el servo<br>
+      pos1 = map(valor1, 0, 1023, 0, 180);<br>
+      pos2 = map(valor2, 0, 1023, 0, 180);<br>
+      pos3 = map(valor3, 0, 1023, 0, 180);<br>
+      pos4 = map(valor4, 0, 1023, 0, 180);<br><br>
+      //Mandamos la posicion al servo 1<br>
+      myservo1.write(pos1);<br>
+      //Mandamos la posicion al servo 2<br>
+      myservo2.write(pos2);<br>
+        myservo3.write(pos3);<br>
+        myservo4.write(pos4);<br>
+      //esperamos un poco para que se mueva<br>
+      delay(10);<br>
+    }
+    
+                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+                            <div class="col-lg-6">
+                                <!-- Post content-->
+                                <div class="my-5">
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="800px" src="img/AA.jpg" alt="..." /></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <p id="diseño">
+                    <h1 class="fw-bolder2 mb-4 mt-5 fs-5">- Diseño -</h1>
+                    <p class="fs-6 mb-4">La base del circuito y su funcionamiento se comprobaron gracias a una serie de conecciones de prueba en tinkerca, el mecanismo es el siguiente: <br>
+                        <div class="container px-5 my-5">
+                        <div class="row gx-5">
+    
+                            <div class="col-lg-6">
+                                <!-- Contact card free-->
+                                        <div class="card-body p-4">
+                                            <div class="text-center">
+                                                 <p class="fs-6 mb-4">
+                                <figure class="mb-4" align="center">
+                             La señal de 4 servomotores se conectan a distintas entradas de el arduino y el positivo y negativo se conectan en serie al protoboard que va a una fuente regulabre que esté configurada en 5V y 3A, y, para que cada uno se mueva, se conectan 4 potenciómetros a los pines analógicos del arduino (la base se conecta al análogo, el extremo derecho a negativo y el izquierdo a positivo), después se conecta el negativo del protoboard a pin de GND, después se carga el programa al Arduino y se desconecta la computadora para conectar a la fuente.
+                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+                            <div class="col-lg-6">
+                                <!-- Post content-->
+                                <div class="my-5">
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="250px" src="img/LA.png" alt="..." /></figure>
+                                </div>
+    
+                            </div><div class="col-lg-6">
+                                <!-- Post content-->
+                                <div class="my-5">
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="250px" src="img/AE.jpg" alt="..." /></figure>
+                                </div>
+    
+                                
+                            </div>
+                            <div class="col-lg-6">
+                                <!-- Post content-->
+                                <div class="my-5"><br>
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="200px" src="img/AO.jpg" alt="..." />
+                                    <img class="img-fluid rounded"  width="200px" src="img/AU.jpg" alt="..." />
+                                    <br>
+                                    <a>Al final el amperaje se sube a 3.<a/>
+                                    </figure>
+                                </div>
+                        </div>
+                    </div>
+                   </p>
+    
+                    <p id="construccion">
+                    <h1 class="fw-bolder2 mb-4 mt-5 fs-5">- Construcción -</h1>
+                        <div class="row gx-5">
+    
+                            <div class="col-lg-6">
+                                <!-- Contact card free-->
+                                        <div class="card-body p-4">
+                                            <div class="text-center">
+                                                 <p class="fs-6 mb-4">
+                                <figure class="mb-4" align="center">
+                            Se realizaron distintos testeos de cada parte del brazo, las cuales son:<br><br>
+    
+    1- Base (que gire correctamente 180°)<br><br>
+    
+    2- Articulación 1: La encargada de la altura del brazo la cual asegura la distancia y altura a la cual puede llegar.<br><br>
+    
+    3- Muñeca: Encargada de regular con mayor precisión los mobimientos de la pinza y la parte superior de el brazo.<br><br>
+    
+    4- Pinza: Abrir y cerrar en un rango de 200° para agarrar cualquier objeto deseado.
+                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+                            <div class="col-lg-6">
+                                <!-- Post content-->
+                                <div class="my-5">
+                                    <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="250px" src="img/WA.jpeg" alt="..." /></figure>
+                                </div>
+    
+                            </div>
+                    </div>
+    
+    
+                    <p id="resultados">
+                    <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+    
+                    <p class="fs-6 mb-4">La prueba final era pasar una pelota entre 5 brazos para alcanzar la calificación máxima, el resultado fue el siguiente:</p>
+    <figure class="mb-4" align="center"><video width="45%" controls>
+                            <source src="video/FIN.mp4" type="video/mp4">
+                        </video></p>
+                    </figure>
+    
+    
+    <p class="fs-6 mb-4" >Con todas estas pruebas logramos comprobar el aguante y la eficiencia del brazo, las cuales las pasó sin problemas
+                         </p>
+                    
+    
+                    <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Al realizar esta práctica aprendimos a programar correctamente y saber el funcionamiento de Arduino y como emplearla de tal manera que ayude a controlar un dispositivo con librerias y algunas líneas de código algo complejas.<br><br>
+    
+                   El objetivo de crear este hadware es ir juntando cada parte con cosas nuevas que vamos a ir aprendiendo a lo largo del semestre, entonces, a pesar de lo complicado que pareció ser, es el inicio de un proyecto enorme.
+                         </p>
+                        
+                         <p id="descargables">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/base arriba servo.SLDPRT">1</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/base servo grande.SLDPRT">2</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/base.SLDPRT">3</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/brazo corto.SLDPRT">4</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/brazo largo con servo.SLDPRT">5</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/brazo largo.SLDPRT">6</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/brazo pedazo chico con servo.SLDPRT">7</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/brazo pedazo chico.SLDPRT">8</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/brazo soporte (2 piezas) - copia.SLDPRT">9</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/garra con servo (para mover el otro) (2 piezas).SLDPRT">10</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/garra pequeña union.SLDPRT">11</a> </p>
+                            <p class="fs-6 mb-4">Descargar código : <a href="files/garra pequeño (1 pieza).SLDPRT">12</a> </p>
+
+                </div>
+            </section>
+    
+    
+        </main>
+    
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto">
+                        <div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div>
+                    </div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+    
+    </html>
